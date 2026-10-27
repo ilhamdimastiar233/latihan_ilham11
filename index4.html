@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS</title>
+</head>
+<body>
+
+<h1 id="halo">Hello World</h1>
+
+<button onclick="document.getElementById('halo').innerHTML='Hello JS'">
+    Click me
+</button>
+
+<button onclick="alert('Hello JS')">
+    Click again
+</button>
+
+<hr>
+
+<button onclick="change()">Change</button>
+
+<a href="https://www.youtube.com/" target="_blank"
+   onclick="return confirm('Mau buka youtube?')">
+    YOUTUBE
+</a>
+
+<script>
+function change() {
+    document.getElementById('halo').innerHTML = 'Hello Javascript !';
+}
+</script>
+
+<script src="my.js"></script>
+
+</body>
+</html>
